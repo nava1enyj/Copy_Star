@@ -30,7 +30,7 @@ if(isset($_SESSION['user']))
                                 <input type="password" id="password" class="input">
                                 <div class="error-msg"></div>
                                 <div class="row center">
-                                    <button class="btn" id="btn-login">Создать аккаунт</button>
+                                    <button class="btn" id="btn-login">Войти</button>
                                 </div>
                             </div>
                         </div>
