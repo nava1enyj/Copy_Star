@@ -11,7 +11,7 @@ class Database
 
     private function connect()
     {
-        $config = require_once '../../config/config.php';
+        $config = require_once $_SERVER['DOCUMENT_ROOT'] . '/config/config.php';
 
         $dsn = 'mysql:host =' . $config['host'] . ';dbname=' . $config['db_name'] . ';charset=' . $config['charset'];
 
